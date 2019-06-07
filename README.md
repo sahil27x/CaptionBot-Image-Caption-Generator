@@ -19,8 +19,7 @@ This dataset includes around 8000 images along with 5 different captions written
 ## Steps to follow:
 
 ### 1. Cleaning the captions
-This is the first step of data pre-processing. The captions contain regular expressions, numbers and other stop words which need to be cleaned before they are fed to the model for further training. The cleaning part involves removing punctuations, single character and numerical values.  After cleaning we try to figure out the top 50 and least 50 words in our dataset.
-
+This is the first step of data pre-processing. The captions contain regular expressions, numbers and other stop words which need to be cleaned before they are fed to the model for further training. The cleaning part involves removing punctuations, single character and numerical values.
 ![](images/top50.PNG?raw=true)
 <br>
 
