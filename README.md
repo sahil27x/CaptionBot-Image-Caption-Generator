@@ -13,14 +13,14 @@ This dataset includes around 8000 images along with 5 different captions written
 #### e. Predicting on test data
 #### f. Evaluating the captions using BLEU scores as the metric
 
-![](images/dataset.PNG?raw=true)
+![](images/ic1.PNG?raw=true)
 <br>
 
 ## Steps to follow:
 
 ### 1. Cleaning the captions
 This is the first step of data pre-processing. The captions contain regular expressions, numbers and other stop words which need to be cleaned before they are fed to the model for further training. The cleaning part involves removing punctuations, single character and numerical values.
-![](images/top50.PNG?raw=true)
+![](images/ic2.PNG?raw=true)
 <br>
 
 ### 2. Adding start and end sequence to the captions
@@ -29,7 +29,7 @@ Start and end sequence need to be added to the captions because the captions var
 ### 3. Extracting features from images
 * After dealing with the captions we then go ahead with processing the images. For this we make use of the pre-trained  [VGG-16](https://github.com/fchollet/deep-learning-models/releases/download/v0.1/vgg16_weights_tf_dim_ordering_tf_kernels.h5) weights.
 
-![](images/vgg16.PNG?raw=true)
+![](images/ic3.PNG?raw=true)
 <br>
 
 ### 5. Merging the caption with the respective images
@@ -44,13 +44,13 @@ LSTM model is been used beacuse it takes into consideration the state of the pre
 ### 8. Predicting on the test dataset and evaluating using BLEU scores
 After the model is trained, it is tested on test dataset to see how it performs on caption generation for just 5 images. If the captions are acceptable then captions are generated for the whole test data. 
 
-![](images/pred2.PNG?raw=true)
+![](images/ic4.PNG?raw=true)
 <br>
 
 
 #### Good Captions
 
-![](images/good.PNG?raw=true)
+![](images/ic5.PNG?raw=true)
 <br>
 
 ## Conclusion
