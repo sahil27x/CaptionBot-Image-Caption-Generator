@@ -35,14 +35,12 @@ Start and end sequence need to be added to the captions because the captions var
 
 ### 5. Merging the caption with the respective images
 * The next step involves merging the captions with the respective images so that they can be used for training. Here we are only taking the first caption of each image from the dataset as it becomes complicated to train with all 5 of them. 
-* Then we have to tokenize all the captions before feeding it to the model.
 
 ### 6. Splitting the data for training and testing
 The tokenized captions along with the image data are split into training, test and validation sets as required and are then pre-processed as required for the input for the model.
 
 ### 7. Building the LSTM model
 LSTM model is been used beacuse it takes into consideration the state of the previous cell's output and the present cell's input for the current output. This is useful while generating the captions for the images.<br>
-The step involves building the LSTM model with two or three input layers and one output layer where the captions are generated. The model can be trained with various number of nodes and layers. We start with 256 and try out with 512 and 1024. Various hyperparameters are used to tune the model to generate acceptable captions
 
 ### 8. Predicting on the test dataset and evaluating using BLEU scores
 After the model is trained, it is tested on test dataset to see how it performs on caption generation for just 5 images. If the captions are acceptable then captions are generated for the whole test data. 
