@@ -13,7 +13,7 @@ This dataset includes around 8000 images along with 5 different captions written
 #### e. Predicting on test data
 #### f. Evaluating the captions using BLEU scores as the metric
 
-![](images/ic1.PNG?raw=true)
+![alt text](https://user-images.githubusercontent.com/26934447/59114431-c7015900-8964-11e9-86ca-838e452a277e.jpg)
 <br>
 
 ## Steps to follow:
