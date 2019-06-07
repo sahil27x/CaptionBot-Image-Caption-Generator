@@ -1,8 +1,8 @@
 # CaptionBot-Image-Caption-Generator
 CaptionBot uses computer vision and natural language processing to generate captions from the image.
-<div style="text-align:center">
+
 ![alt text](https://user-images.githubusercontent.com/26934447/59115324-ac2fe400-8966-11e9-820c-50372eb0a374.gif)
-</div>
+
 ## Dataset:
 [FLICKR_8K](https://forms.illinois.edu/sec/1713398).
 This dataset includes around 8000 images along with 5 different captions written by different people for each image. The images are all contained together while caption text file has captions along with the image number appended to it. The zip file is approximately over 1 GB in size.
