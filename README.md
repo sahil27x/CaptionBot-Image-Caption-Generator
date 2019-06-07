@@ -34,7 +34,7 @@ Start and end sequence need to be added to the captions because the captions var
 <br>
 
 ### 5. Merging the caption with the respective images
-* The next step involves merging the captions with the respective images so that they can be used for training. Here we are only taking the first caption of each image from the dataset as it becomes complicated to train with all 5 of them. 
+* The next step involves merging the captions with the respective images so that they can be used for training.
 
 ### 6. Splitting the data for training and testing
 The tokenized captions along with the image data are split into training, test and validation sets as required and are then pre-processed as required for the input for the model.
