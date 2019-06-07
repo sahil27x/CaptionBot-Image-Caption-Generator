@@ -1,7 +1,7 @@
 # CaptionBot-Image-Caption-Generator
 CaptionBot uses computer vision and natural language processing to generate captions from the image.
 
-![alt text](https://user-images.githubusercontent.com/26934447/59114914-ccab6e80-8965-11e9-9dd8-97743b56ad1f.gif)
+![alt text](https://user-images.githubusercontent.com/26934447/59115324-ac2fe400-8966-11e9-820c-50372eb0a374.gif)
 
 ## Dataset:
 [FLICKR_8K](https://forms.illinois.edu/sec/1713398).
